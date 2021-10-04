@@ -64,6 +64,15 @@ print_message () {
         "Keep trying, someday you'll do something intelligent!"
         "If shit was music, you'd be an orchestra."
         "How many times do I have to flush before you go away?"
+        "You should start using tik-tok"
+        "STFU!"
+        "git commit Suicide"
+        "Go back to school N00b!"
+        "Are you 92?!?"
+        "Linus Torvalds has been notified of your stupidity"
+        "You are 1 pathetic loser, haha"
+        "You know what...I Quit!"
+        "u takin to me ?"
     )
 
     # If CMD_NOT_FOUND_MSGS array is populated use those messages instead of the defaults
