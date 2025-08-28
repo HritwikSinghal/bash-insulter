@@ -35,7 +35,7 @@ noob@bender:~ $ sp aux
     sudo wget -O /etc/bash.command-not-found https://raw.githubusercontent.com/HritwikSinghal/bash-insulter/master/src/bash.command-not-found
 
 Then source the file automatically for new logins by adding the following to `/etc/bash.bashrc` or any of the other locations where you can configure your shell automatically during login:
-```
+```sh
 if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
 fi
@@ -56,7 +56,7 @@ It is probably cleanest to source a file populating the environment variable as 
     )
     
 Then source this file before you source the script:
-```
+```sh
 if [ -f /etc/bash.command-not-found-messages ]; then
     . /etc/bash.command-not-found-messages
 fi
