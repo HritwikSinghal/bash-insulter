@@ -1,6 +1,8 @@
 # bash-insulter
 Randomly insults the user when typing wrong command.
 
+Thanks to [hkbakke](https://github.com/hkbakke/bash-insulter) for this.
+
 Change insults as needed :)
 
 ```bash
